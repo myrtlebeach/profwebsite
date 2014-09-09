@@ -1,0 +1,113 @@
+
+h1{
+	font-family: "Lato", sans-serif; 
+	font-weight: 100;
+	font-size: 50px;
+	color: rgb(70, 77, 92);
+	text-align: center;
+}
+h2{
+	font-family: "Lato", sans-serif; 
+	font-weight: 200;
+	font-size: 40px;
+	color: rgb(70, 77, 92);
+	text-align: center;
+}
+h3{
+	font-family: "Lato", sans-serif; 
+	font-weight: 300;
+	font-size: 30px;
+	color: rgb(70, 77, 92);
+	text-align: center;
+}
+h4{
+	font-family: "Lato", sans-serif; 
+	font-weight: 400;
+	font-size: 30px;
+	color: rgb(70, 77, 92);
+	text-align: center;
+}
+p{
+	font-family: "Vollkorn", serif; 
+	font-weight: 400;
+	font-size: 20px;
+	color: rgb(70, 77, 92);
+}
+ul{
+	font-family: "Vollkorn", serif; 
+	font-weight: 400;
+	font-size: 20px;
+	color: rgb(70, 77, 92);
+}
+section{
+	display: inline-block;
+    width: 800px;
+    vertical-align: top;
+}
+aside{
+	display: inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+footer{
+	display: inline-block;
+	width: 1110px;
+	text-align: center;
+	vertical-align: bottom;
+}
+article{
+	width: 40%;
+   	padding: 5%;
+   	text-align: justify;
+}
+
+.pix1{
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  display: block;
+  margin: auto;
+}
+.pix2{
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  display: block;
+  margin: auto;
+}
+.joconde{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px; 
+}
+.joconde{
+	display: block;
+	margin: auto;
+}
+.gauche{
+	float: left;
+}
+.droite{
+	float: right;
+}
+.stocktwits{
+	display: block;
+	text-align: center;
+}
+.google{
+	display: block;
+	text-align: center;
+}
+li{
+    display: inline;
+    margin: 100px 50px;
+}
+.fa{
+	font-size: 20px;
+	letter-spacing: 20px;
+}
+
+
+
+
+
