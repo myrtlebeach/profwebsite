@@ -1,3 +1,39 @@
+/*Balises*/
+nav {
+  border-top: 1px solid rgb(70, 77, 92);
+  border-bottom: 1px solid rgb(70, 77, 92);
+  margin: 20px 30px;
+}
+
+section{
+	display: inline-block;
+    width: 800px;
+    vertical-align: top;
+}
+aside{
+	display: inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+article{
+	width: 40%;
+   	padding: 5%;
+   	text-align: justify;
+}
+li{
+    display: inline;
+    margin: 100px 50px;
+
+}
+
+footer{
+	display: inline-block;
+	width: 1110px;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+/*Balises combinées*/
 
 h1{
 	font-family: "Lato", sans-serif; 
@@ -34,55 +70,37 @@ p{
 	color: rgb(70, 77, 92);
 }
 ul{
+	text-decoration: none;
 	font-family: "Vollkorn", serif; 
 	font-weight: 400;
 	font-size: 20px;
 	color: rgb(70, 77, 92);
 }
-section{
-	display: inline-block;
-    width: 800px;
-    vertical-align: top;
-}
-aside{
-	display: inline-block;
-    width: 300px;
-    vertical-align: top;
-}
-footer{
-	display: inline-block;
-	width: 1110px;
-	text-align: center;
-	vertical-align: bottom;
-}
-article{
-	width: 40%;
-   	padding: 5%;
-   	text-align: justify;
-}
 
-.pix1{
+/*Classes*/
+
+.not-underlined{
+	text-decoration: none;
+	font-family: "Vollkorn", serif; 
+	font-weight: 400;
+	font-size: 20px;
+	color: rgb(70, 77, 92);
+}
+.pix{
   width: 150px;
   height: 150px;
   border-radius: 100px;
   display: block;
   margin: auto;
 }
-.pix2{
-  width: 150px;
-  height: 150px;
-  border-radius: 100px;
-  display: block;
-  margin: auto;
+.pix:hover{
+	opacity: 0.5;
 }
-.joconde{
-  width: 200px;
-  height: 200px;
-  border-radius: 100px; 
-}
-.joconde{
-	display: block;
-	margin: auto;
+.gras{
+	font-family: "Vollkorn", serif; 
+	font-weight: 400;
+	font-size: 30px;
+	color: red;
 }
 .gauche{
 	float: left;
@@ -90,23 +108,146 @@ article{
 .droite{
 	float: right;
 }
+
 .stocktwits{
 	display: block;
 	text-align: center;
 }
+
 .google{
 	display: block;
 	text-align: center;
 }
-li{
-    display: inline;
-    margin: 100px 50px;
-}
+
 .fa{
 	font-size: 20px;
 	letter-spacing: 20px;
 }
 
+.parent{
+
+	width: 200px;
+  	height: 200px;
+}
+
+
+/*ID*/
+
+
+
+#joconde{
+
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px; 
+  text-align: center;
+}
+#joconde:hover{
+	opacity: 0.5;
+}
+
+#prefooter{
+	width: 1110px;
+	text-align: center;
+	vertical-align: bottom;
+}
+#xxx{
+	text-decoration: none;
+	font-family: "Vollkorn", serif; 
+	font-weight: 400;
+	font-size: 40px;
+	color: rgb(70, 77, 92);
+}
+#xxx:hover{
+	opacity: 0.5;
+}
+
+/*---- #A186BE ----*/
+figure.effect-3{
+	width: 200px;
+  	height: 200px;
+  	margin-top: 20px;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+figure.effect-3 {
+	background-color: -webkit-linear-gradient(45deg, #f49ac1 0%, #605ca8 40%, #a186be 50%);
+	background: linear-gradient(45deg, #f49ac1 0%,#605ca8 40%,#a186be 50%);
+}
+
+figure.effect-3 img {
+	opacity: 0.9;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+
+figure.effect-3 figcaption {
+	padding: 3em;
+	background-color: #a186be;
+	-webkit-transition: background-color 0.35s;
+	transition: background-color 0.35s;
+}
+
+figure.effect-3 figcaption::before {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	bottom: 30px;
+	left: 30px;
+	border: 1px solid #fff;
+	content: '';
+}
+
+figure.effect-3 h2 {
+	margin: 20% 0 10px 0;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+}
+
+figure.effect-3 figcaption::before,
+figure.effect-3 p {
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+}
+
+figure.effect-3:hover h2 {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-3:hover figcaption::before,
+figure.effect-3:hover p {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+figure.effect-3:hover figcaption {
+	background-color: rgba(58,52,42,0);
+}
+
+figure.effect-3:hover img {
+	opacity: 0.4;
+}
+
+.divider{
+  	width: 300px;
+  	height: 500px;
+  	margin-top: 20px;
+  	margin-left: auto;
+  	margin-right: auto;
+
+
+
+}
 
 
 
